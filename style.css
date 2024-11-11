@@ -32,3 +32,25 @@ body {
     width: 100%;
     display: block;
 }
+
+.card-footer {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.avatar {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.card-footer span {
+    font-size: 1rem;
+    color: hsl(215, 51%, 70%);
+}
+
+.card-footer strong {
+    color: hsl(178, 100%, 50%);
+}
