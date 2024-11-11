@@ -46,6 +46,29 @@ body {
     margin-right: 10px;
 }
 
+.card-content {
+    padding: 20px;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+.card-content h2 {
+    font-size: 1.5rem;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 8px;
+}
+
+.card-content p {
+    font-size: 1rem;
+    color: hsl(215, 51%, 70%);
+}
+
+.card-footer {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+
 .card-footer span {
     font-size: 1rem;
     color: hsl(215, 51%, 70%);
