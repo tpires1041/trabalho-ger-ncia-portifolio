@@ -22,6 +22,14 @@ body {
     height: 100%;
 }
 
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    max-width: 1000px;
+}
+
 .card {
     width: 300px;
     background-color: hsl(216, 50%, 16%);
