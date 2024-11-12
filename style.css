@@ -89,3 +89,40 @@ body {
 .card-footer strong {
     color: hsl(178, 100%, 50%);
 }
+
+.my-element {
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+  }
+
+  /* This only changes this particular animation duration */
+.animate__animated {
+    --animate-duration: 2s;
+  }
+  
+  /* This changes all the animations globally */
+  :root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+  }
+
+  .card-content {
+    transition: all 0.3s ease-in-out;
+}
+
+.card-content:hover {
+    animation: bounce 1s ease-in-out; /* Aplica a animação de bounce */
+}
+
+/* Definindo a animação de bounce */
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
